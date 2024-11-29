@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import logo from "../images/amberlogo.png";
+import amberVideo from "../images/amberTechdemo.mp4"
+
 import "../styles/home.css"; // Adjust path as needed
 
 const Product = () => {
@@ -88,6 +90,42 @@ const Product = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+        {/* Video Section */}
+        <Container style={{ padding: "50px 0" }}>
+  <Row className="justify-content-center">
+    <Col md={8} style={{ position: "relative" }}>
+      <div
+        style={{
+          position: "relative",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          animation: "slideIn 2s ease",
+          boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)", // Optional shadow for better aesthetics
+          borderRadius: "10px", // Rounded corners for the video
+          overflow: "hidden", // Ensures video stays within the border radius
+        }}
+      >
+        {/* Replace images with a video */}
+        <video
+          src={amberVideo} // Replace with the actual video path
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            width: "100%", // Ensures the video spans the full container
+            height: "auto", // Maintains the aspect ratio
+            objectFit: "cover", // Ensures the video fills the container
+            borderRadius: "10px", // Matches the border radius of the container
+            cursor: "pointer",
+          }}
+        />
+      </div>
+    </Col>
+  </Row>
+</Container>
+
 
       {/* Countdown Section */}
       <Container style={{ textAlign: "center", padding: "50px 0" }}>

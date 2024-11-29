@@ -5,8 +5,7 @@ import "../styles/home.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import amberImage from "../images/amber1.jpg";
-import amberImage1 from "../images/amber2.jpg"
-import amberImage2 from "../images/amber3.jpg";
+import amberVideo from "../images/amberTechdemo.mp4"
 import logo from "../images/amberlogo.png";
 
 
@@ -194,54 +193,37 @@ const Home = () => {
       </p>
     </Col>
 
-    {/* Image Section */}
-    <Col md={6} style={{ position: "relative" }}>
-      <div
-        style={{
-          position: "relative",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          animation: "slideIn 2s ease",
-        }}
-      >
-        {/* First Image */}
-        <img
-          src={amberImage1} // Replace with your image path
-          alt="Amber Accessories Story 1"
-          style={{
-            width: "55%",
-            borderRadius: "10px",
-            boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
-            position: "relative",
-            zIndex: 2,
-            transition: "transform 0.3s ease, opacity 0.3s ease",
-            cursor: "pointer",
-          }}
-          onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
-          onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-        />
-        {/* Second Image */}
-        <img
-          src={amberImage2} // Replace with your image path
-          alt="Amber Accessories Story 2"
-          style={{
-            width: "50%",
-            borderRadius: "10px",
-            boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
-            position: "absolute",
-            top: "40px",
-            left: "20px",
-            zIndex: 1,
-            transition: "transform 0.3s ease, opacity 0.3s ease",
-            opacity: 0.9,
-            cursor: "pointer",
-          }}
-          onMouseEnter={(e) => (e.target.style.transform = "scale(1.1)")}
-          onMouseLeave={(e) => (e.target.style.transform = "scale(1)")}
-        />
-      </div>
-    </Col>
+    {/* Video Section */}
+<Col md={6} style={{ position: "relative" }}>
+  <div
+    style={{
+      position: "relative",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      animation: "slideIn 2s ease",
+      boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)", // Optional shadow for better aesthetics
+      borderRadius: "10px", // Rounded corners for the video
+      overflow: "hidden", // Ensures video stays within the border radius
+    }}
+  >
+    {/* Replace images with a video */}
+    <video
+      src={amberVideo} // Replace with the actual video path
+      autoPlay
+      loop
+      muted
+      playsInline
+      style={{
+        width: "100%", // Ensures the video spans the full container
+        height: "auto", // Maintains the aspect ratio
+        objectFit: "cover", // Ensures the video fills the container
+        borderRadius: "10px", // Matches the border radius of the container
+        cursor: "pointer",
+      }}
+    />
+  </div>
+</Col>
   </Row>
 </Container>
 
