@@ -447,6 +447,9 @@ const Home = () => {
           <Nav.Link href="/aboutus" style={{ color: "#FFFFFF", fontSize: "0.9rem" }}>
             About Us
           </Nav.Link>
+          <Nav.Link as={Link} to="/individuals" style={{ color: "#FFFFFF" }}>
+                In Their Memory
+          </Nav.Link>
           <Nav.Link href="/product" style={{ color: "#FFFFFF", fontSize: "0.9rem" }}>
             Product
           </Nav.Link>
