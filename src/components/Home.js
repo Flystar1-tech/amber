@@ -19,7 +19,7 @@ const Home = () => {
             href="#"
             style={{ color: "#FFBF00", fontWeight: "bold", fontSize: "1.5rem" }}
           >
-            Amber Accessories
+            AmbER
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
