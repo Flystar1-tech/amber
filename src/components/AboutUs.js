@@ -20,7 +20,7 @@ const AboutUs = () => {
             href="#"
             style={{ color: "#FFBF00", fontWeight: "bold", fontSize: "1.5rem" }}
           >
-            Amber Accessories
+            AmbER
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -79,14 +79,14 @@ const AboutUs = () => {
           <Col md={6}>
             <h2 style={{ color: "#00274D", fontWeight: "bold", marginBottom: "20px" }}>Our Story</h2>
             <p style={{ fontSize: "1.2rem", lineHeight: "1.8", color: "#333" }}>
-              Amber Accessories began as a student project, inspired by moments where we felt unsafe
+              AmbER began as a student project, inspired by moments where we felt unsafe
               walking home late, navigating unfamiliar areas, or being in vulnerable situations. 
               Our experiences drove us to create a solution that provides peace of mind and security.
             </p>
             <p style={{ fontSize: "1.2rem", lineHeight: "1.8", color: "#333" }}>
               Inspired by the story of Amber Hagerman, we made it our mission to develop a product
               that not only ensures safety but also serves as a beacon of hope for individuals 
-              everywhere. Amber Accessories isn’t just a product—it’s a promise to protect and empower.
+              everywhere. AmbER isn’t just a product—it’s a promise to protect and empower.
             </p>
           </Col>
           <Col md={6}>
@@ -125,7 +125,7 @@ const AboutUs = () => {
       <Row>
         <Col md={6}>
           <h2 style={{ color: "#00274D", fontWeight: "bold", marginBottom: "20px" }}>
-            Why Amber Accessories?
+            Why AmbER?
           </h2>
           <p style={{ fontSize: "1.2rem", lineHeight: "1.8", color: "#333" }}>
             Safety statistics reveal the growing need for reliable solutions:
@@ -177,7 +177,7 @@ const AboutUs = () => {
           Join Us in Our Mission
         </h2>
         <p style={{ fontSize: "1.2rem", marginBottom: "30px" }}>
-          Pre-order Amber Accessories today and be a part of the movement to make the world safer.
+          Pre-order AmbER today and be a part of the movement to make the world safer.
         </p>
         <Button
           style={{
@@ -273,13 +273,13 @@ const AboutUs = () => {
                 </a>
               </div>
               <p style={{ marginTop: "15px", fontSize: "0.9rem" }}>
-                info@amberaccessories.com
+                info@amber.com
               </p>
             </Col>
           </Row>
           <Row>
             <Col style={{ textAlign: "center", fontSize: "0.8rem", marginTop: "15px" }}>
-              <p>© 2024 Amber Accessories. All rights reserved.</p>
+              <p>© 2024 AmbER. All rights reserved.</p>
             </Col>
           </Row>
         </Container>

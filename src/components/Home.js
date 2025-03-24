@@ -245,7 +245,7 @@ const Home = () => {
           textShadow: "1px 1px 2px rgba(0, 0, 0, 0.2)",
         }}
       >
-        Why Amber?
+        Why AmbER?
       </h2>
     </Col>
   </Row>
@@ -336,7 +336,7 @@ const Home = () => {
       lineHeight: "1.6",
     }}
   >
-    Amber Accessories is making a difference. Here’s a snapshot of what we’ve achieved so far.
+    AmbER is making a difference. Here’s a snapshot of what we’ve achieved so far.
   </p>
   <Container>
     <Row>
@@ -494,7 +494,7 @@ const Home = () => {
             Email Us <span style={{ fontSize: "1.2rem" }}>+</span>
           </h5>
           <div id="emailForm" style={{ display: "none", marginTop: "10px" }}>
-            <form action="mailto:info@amberaccessories.com" method="post" encType="text/plain">
+            <form action="mailto:info@amber.com" method="post" encType="text/plain">
               <input
                 type="text"
                 placeholder="Your Name"
@@ -556,7 +556,7 @@ const Home = () => {
     {/* Copyright */}
     <Row>
       <Col style={{ textAlign: "center", fontSize: "0.8rem", marginTop: "15px" }}>
-        <p>© 2024 Amber Accessories. All rights reserved.</p>
+        <p>© 2024 AmbER. All rights reserved.</p>
       </Col>
     </Row>
   </Container>

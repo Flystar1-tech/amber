@@ -11,9 +11,9 @@ const categories = [
       color: "#00274D",
       questions: [
         {
-          question: "What is Amber Accessories?",
+          question: "What is AmbER?",
           answer:
-            "Amber Accessories is a discreet, wearable safety device designed to provide immediate assistance in emergencies. It allows users to alert emergency contacts, share real-time GPS locations, and access additional features like geo-fencing and satellite tracking (Premium model).",
+            "AmbER is a discreet, wearable safety device designed to provide immediate assistance in emergencies. It allows users to alert emergency contacts, share real-time GPS locations, and access additional features like geo-fencing and satellite tracking (Premium model).",
         },
         {
           question: "How does Amber Accessories work?",
