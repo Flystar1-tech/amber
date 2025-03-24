@@ -97,7 +97,7 @@ const Home = () => {
       animation: "fadeSlideIn 1.5s ease",
     }}
   >
-    Amber Accessories
+    AmbER
   </h1>
   <p
     style={{
