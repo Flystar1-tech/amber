@@ -270,7 +270,7 @@ const Product = () => {
                 </a>
               </div>
               <p style={{ marginTop: "15px", fontSize: "0.9rem" }}>
-                info@amberaccessories.com
+                info@amber.com
               </p>
             </Col>
           </Row>
@@ -278,7 +278,7 @@ const Product = () => {
           {/* Copyright */}
           <Row>
             <Col style={{ textAlign: "center", fontSize: "0.8rem", marginTop: "15px" }}>
-              <p>© 2024 Amber Accessories. All rights reserved.</p>
+              <p>© 2024 AmbER. All rights reserved.</p>
             </Col>
           </Row>
         </Container>

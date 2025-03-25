@@ -16,14 +16,14 @@ const categories = [
             "AmbER is a discreet, wearable safety device designed to provide immediate assistance in emergencies. It allows users to alert emergency contacts, share real-time GPS locations, and access additional features like geo-fencing and satellite tracking (Premium model).",
         },
         {
-          question: "How does Amber Accessories work?",
+          question: "How does AmbER work?",
           answer:
             "When the device is pressed more than once within 10 seconds, it sends real-time GPS alerts to your preset emergency contacts, emergency services, and a connected mobile app. Additionally, it includes features like geo-fencing to notify you if a loved one leaves a designated safe zone. This multi-press activation ensures accidental alerts are minimized, providing a reliable and thoughtful safety solution."
         },
         {
-          question: "Who can benefit from Amber Accessories?",
+          question: "Who can benefit from AmbER?",
           answer:
-            "Amber Accessories is ideal for college students, elderly individuals, parents, travelers, and anyone concerned about personal safety.",
+            "AmbER is ideal for college students, elderly individuals, parents, travelers, and anyone concerned about personal safety.",
         },
       ],
     },
@@ -32,7 +32,7 @@ const categories = [
       color: "#00274D",
       questions: [
         {
-          question: "Does Amber Accessories require a smartphone to work?",
+          question: "Does AmbER require a smartphone to work?",
           answer:
             "No, Amber operates independently of smartphones, ensuring it works even when your phone is out of reach. However, the mobile app provides additional functionality like location tracking and notifications.",
         },
@@ -44,7 +44,7 @@ const categories = [
         {
           question: "Can the device detect false alarms?",
           answer:
-            "Amber Accessories uses a dual-layered approach to minimize false alarms. When the device is pressed **more than once within 10 seconds**, it activates and sends real-time GPS alerts to your preset emergency contacts, emergency services, and a connected mobile app. Additionally, the device leverages AI to analyze user actions and environmental factors, further reducing the chances of accidental alerts. This ensures that assistance is only sent when truly needed, offering a reliable and intelligent safety solution.",
+            "AmbER uses a dual-layered approach to minimize false alarms. When the device is pressed **more than once within 10 seconds**, it activates and sends real-time GPS alerts to your preset emergency contacts, emergency services, and a connected mobile app. Additionally, the device leverages AI to analyze user actions and environmental factors, further reducing the chances of accidental alerts. This ensures that assistance is only sent when truly needed, offering a reliable and intelligent safety solution.",
         },
       ],
     },
@@ -60,7 +60,7 @@ const categories = [
         {
           question: "Can I customize who receives my emergency alerts?",
           answer:
-            "Yes, through the Amber Accessories mobile app, you can set and manage your emergency contacts.",
+            "Yes, through the AmbER mobile app, you can set and manage your emergency contacts.",
         },
         {
           question: "How is the device attached to accessories?",
@@ -75,7 +75,7 @@ const categories = [
       questions: [
         {
           question: "How long does the battery last?",
-          answer: "Amber Accessories has a battery life of up to 3 days on a single charge, depending on usage.",
+          answer: "AmbERhas a battery life of up to 3 days on a single charge, depending on usage.",
         },
         {
           question: "How do I charge the device?",
@@ -93,7 +93,7 @@ const categories = [
       color: "#00274D",
       questions: [
         {
-          question: "Does Amber Accessories work internationally?",
+          question: "Does AmbER work internationally?",
           answer:
             "Yes, the Premium model with satellite connectivity provides global coverage, making it ideal for travelers.",
         },
@@ -103,7 +103,7 @@ const categories = [
             "The Basic model uses LTE/Wi-Fi for connectivity, while the Premium model uses satellite for areas without cellular service.",
         },
         {
-            question: "Can Amber Accessories function in remote areas without network coverage?",
+            question: "Can AmbER function in remote areas without network coverage?",
             answer:
               "Yes, the Premium model of Amber Accessories is equipped with satellite tracking, allowing it to work in remote areas where cellular service is unavailable. This ensures safety and connectivity anytime, anywhere."}
       ],
@@ -115,7 +115,7 @@ const categories = [
         {
           question: "Is my location data secure?",
           answer:
-            "Yes, Amber Accessories uses end-to-end encryption to ensure your location data and alerts are private and secure.",
+            "Yes, AmbER uses end-to-end encryption to ensure your location data and alerts are private and secure.",
         },
         {
           question: "Can I track my loved ones with this device?",
@@ -136,12 +136,12 @@ const categories = [
         {
           question: "Can the device be used by children?",
           answer:
-            "Yes, Amber Accessories is suitable for children and can help parents monitor their location and safety. For users below the legal age of a child as defined by specific countries, the default settings include continuous monitoring and geo-fencing, enabling parents to track their location in real time and establish virtual safe zones. Parents have the flexibility to adjust these settings based on their preferences or specific needs, ensuring the device is both user-friendly and adaptable.",
+            "Yes, AmbER is suitable for children and can help parents monitor their location and safety. For users below the legal age of a child as defined by specific countries, the default settings include continuous monitoring and geo-fencing, enabling parents to track their location in real time and establish virtual safe zones. Parents have the flexibility to adjust these settings based on their preferences or specific needs, ensuring the device is both user-friendly and adaptable.",
         },
         {
-          question: "How does Amber Accessories contribute to the UN SDGs?",
+          question: "How does AmbER contribute to the UN SDGs?",
           answer:
-            "Amber Accessories aligns with UN SDG 3: Good Health and Well-being by promoting personal safety and reducing the risk of harm in emergencies.",
+            "AmbER aligns with UN SDG 3: Good Health and Well-being by promoting personal safety and reducing the risk of harm in emergencies.",
         },
         {
           question: "Can the device be used in areas without network coverage?",
@@ -161,7 +161,7 @@ const Contact = () => {
             href="#"
             style={{ color: "#FFBF00", fontWeight: "bold", fontSize: "1.5rem" }}
           >
-            Amber Accessories
+            AmbER
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -371,14 +371,14 @@ const Contact = () => {
             {/* Logo and Branding */}
             <Col md={4} style={{ textAlign: "center" }}>
               <h4 style={{ fontSize: "1.5rem", fontWeight: "bold", color: "#FFBF00" }}>
-                Amber Accessories
+                AmbER
               </h4>
               <p style={{ fontSize: "0.9rem", marginTop: "10px" }}>
                 Creating a safer world, one discreet button at a time.
               </p>
               <img
                 src={amberLogo}
-                alt="Amber Accessories Logo"
+                alt="AmbER Logo"
                 style={{
                   width: "150px",
                   marginTop: "10px",
@@ -438,13 +438,13 @@ const Contact = () => {
                 </a>
               </div>
               <p style={{ marginTop: "15px", fontSize: "0.9rem" }}>
-                info@amberaccessories.com
+                info@amber.com
               </p>
             </Col>
           </Row>
           <Row>
             <Col style={{ textAlign: "center", fontSize: "0.8rem", marginTop: "15px" }}>
-              <p>© 2024 Amber Accessories. All rights reserved.</p>
+              <p>© 2024 AmbER. All rights reserved.</p>
             </Col>
           </Row>
         </Container>
